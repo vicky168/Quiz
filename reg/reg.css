@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gugi&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+background-image: url(https://i.pinimg.com/originals/04/ef/5e/04ef5e1743f2123165f573616c533885.jpg);    
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    
+}
+
+form{
+  
+    width: 400px;
+    margin:auto;
+    margin-top: 200px;
+    padding: 10px,30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background-color: transperent;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: -2;
+    flex-wrap: wrap;
+    font-family: "Albert Sans", sans-serif; 
+}
+.space{
+   
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+}
+button{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 10px;
+    
+    
+}
+label{
+    font-size: 1rem;  
+    font-family: "Victor Mono", monospace;
+}
+input{
+    width: 100%;
+    margin: 5px;
+    border: none;
+    padding: 2px;
+    border-bottom: 2px solid white;
+    outline:none;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: "Albert Sans", sans-serif;
+
+}
+input:hover{
+    border-color: black;
+    
+}
+
+h1{
+    font-family: "Dancing Script";
+    margin: 10px;
+    color: #008DDA;
+}
+.reg{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.reg p{
+    padding: 2px;
+}
+.link{
+    text-decoration: none;
+    color: #FBA834;
+}
+input::placeholder{
+    color:#3C3633;
+}

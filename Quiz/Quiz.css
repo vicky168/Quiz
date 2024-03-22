@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&family=Fascinate+Inline&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(./q.webp);
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: white;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: "Fascinate Inline", system-ui;
+    border-bottom: 1px solid rgb(20, 36, 48);
+}
+
+.quiz h2 {
+    font-size: 20px;
+    padding: 10px 0 6px;
+    color: #884A39;
+}
+
+.bt {
+    background-color: white;
+    border: 1px solid #222;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1.5px solid #222;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.bt:hover:not([disabled]) {
+    background-color: black;
+    color: white;
+}
+
+.bt:disabled {
+    cursor: no-drop;
+}
+
+#next {
+    display: none;
+    padding: 6px;
+    margin: 20px auto -10px;
+    font-weight: 600;
+    font-size: 17px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    background-color: rgb(86, 81, 227);
+    color: white;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
+
+.link {
+    display: inline-block;
+    margin-left: 105px;
+    margin-right: 90px;
+    
+    text-align: center;
+    margin-top: 20px;
+    color: #fff; /* Text color */
+    background-color: #A2CDB0; /* Background color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}
+
+.link:hover {
+    background-color: #555; /* Hover background color */
+}
+
+.link3 {
+    display: block;
+    margin : auto;
+    margin-right:240px;
+    width : 100px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(86, 81, 227);
+    color: white; /* Background color */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+}

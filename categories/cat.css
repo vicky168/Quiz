@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gugi&family=Rubik+Pixels&family=Truculenta:opsz,wght@12..72,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Della+Respira&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and nav-links to the right */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px; /* Padding around navbar */
+}
+
+.logo {
+    font-size: 24px; 
+    color: #F6B17A;
+    padding: 10px;
+    font-size: 40px;
+    font-family: "Rubik Pixels", system-ui;/* Size of the logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Removes bullets from the list */
+    display: flex;
+
+    margin:auto;
+    gap: 50px ;
+    
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: "Overlock", sans-serif;
+    
+}
+
+.nav-links li a {
+    text-decoration: none; /* Removes underline from links */
+    color: white; /* Text color of the links */
+    font-weight: bold; /* Makes text bold */
+}
+
+.nav-links li a:hover {
+    color:goldenrod /* Text color of the links on hover */
+}
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/134/372/59/abstract-background-copyspace-brainstorm.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.tp{
+    margin-left: 220px;
+    margin-top: 40px;
+    font-family:"Della Respira", serif ;
+    font-size: 55px;
+    color: #132043;
+}
+.container{
+    margin-top: 20px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-between;
+    
+    margin-left: 150px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.container a{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #F6B17A;
+    color: #0F2C59;
+    font-size: 30px;
+
+}
