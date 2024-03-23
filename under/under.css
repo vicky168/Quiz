@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gugi&family=Rubik+Pixels&family=Truculenta:opsz,wght@12..72,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/ce/d2/d0/ced2d0cc1832708a6a1ee95df0e285a1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Gugi&family=Rubik+Pixels&family=Truculenta:opsz,wght@12..72,100..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #333; 
+    display: flex;
+    justify-content: space-between; /* Aligns logo to the left and nav-links to the right */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px; /* Padding around navbar */
+}
+
+.logo {
+    font-size: 24px; 
+    color: #F6B17A;
+    padding: 10px;
+    font-size: 40px;
+    font-family: "Rubik Pixels", system-ui;/* Size of the logo */
+}
+
+.nav-links {
+    list-style-type: none; /* Removes bullets from the list */
+    display: flex;
+     
+    margin:auto;
+    gap: 50px ;
+    
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-size: 25px;
+    font-family: "Overlock", sans-serif;
+    
+}
+
+.nav-links li a {
+    text-decoration: none; /* Removes underline from links */
+  color: white;/* Text color of the links */
+    font-weight: bold; /* Makes text bold */
+}
+
+.nav-links li a:hover {
+    color:goldenrod /* Text color of the links on hover */
+}
+.nav-links{
+    display: flex;
+    gap: 10px;
+    text-align: right;
+    margin-right: 10px;
+}
+h2{
+    color: white;
+    font-size: 50px;
+    font-family:"Overlock", sans-serif ;
+}
+i{
+    margin-top: 9px;
+    margin-left: 15px;
+}
