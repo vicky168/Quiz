@@ -108,7 +108,7 @@ function showScore() {
     resetState();
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
+    nextButton.style.display = "none";
 }
 
 function handleNextButton() {
@@ -131,6 +131,12 @@ function addLinks() {
     categoriesLink.textContent = "Categories";
     categoriesLink.classList.add("link");
     answerButtons.appendChild(categoriesLink);
+
+    const playLink = document.createElement("a");
+    playLink.href = "./Quiz.html"; 
+    playLink.textContent = "Play Again";
+    playLink.classList.add("link3");
+    answerButtons.appendChild(playLink);
 }
 
 startQuiz();
