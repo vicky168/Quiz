@@ -133,7 +133,7 @@ function addLinks() {
     answerButtons.appendChild(categoriesLink);
 
     const playLink = document.createElement("a");
-    playLink.href = "./Quiz.html"; 
+    playLink.href = "./Quiz3.html"; 
     playLink.textContent = "Play Again";
     playLink.classList.add("link3");
     answerButtons.appendChild(playLink);
