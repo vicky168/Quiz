@@ -1,13 +1,21 @@
 document.addEventListener("DOMContentLoaded", function() {
     const agreeCheckbox = document.getElementById("agree-checkbox");
-    const proceedButton = document.querySelector(".bt a[href='../Quiz/Quiz.html']");
+    const proceedLink = document.querySelector(".bt a[href='../Quiz/Quiz.html']");
     
-    // Disable the proceed button initially
-    proceedButton.disabled = true;
+    // Disable the link initially
+    proceedLink.classList.add("disabled");
+    proceedLink.removeAttribute("href");
 
-    // Event listener for checkbox change
-    agreeCheckbox.addEventListener("change", function() {
-        // Enable/disable the proceed button based on checkbox status
-        proceedButton.disabled = !this.checked;
+    // Event listener for checkbox click
+    agreeCheckbox.addEventListener("click", function() {
+        if (this.checked) {
+            // Enable the link if checkbox is checked
+            proceedLink.classList.remove("disabled");
+            proceedLink.href = "../Quiz/Quiz.html";
+        } else {
+            // Disable the link if checkbox is unchecked
+            proceedLink.classList.add("disabled");
+            proceedLink.removeAttribute("href");
+        }
     });
 });
