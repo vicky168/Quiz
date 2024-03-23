@@ -73,4 +73,17 @@
 .h{
     color: goldenrod;
 }
-
+.fa-user {
+    color: white;
+    font-size: 25px;
+}
+ .user a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Overlock", sans-serif;
+    padding: 10px;
+}
+.user a:hover{
+    color:goldenrod ;
+}
